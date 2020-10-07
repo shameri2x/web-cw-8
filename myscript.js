@@ -32,3 +32,38 @@
 
 // --------------------------------- 🔥 بونص ------------------------------------
 // while loop اطبع احد المصفوفات بإستخدام
+
+function driving (x){
+     x = 18;
+    if(x>=18){
+        console.log(`🚘😍 مبروك سوف تحصل على الليسن`)
+    }else{
+        console.log(` 😢 للاسف عمرك لا يسمح`)
+    }
+}
+
+driving();
+
+
+
+ let iceCream = [ 'بو ذهب' , 'برد توت' , `برد موز`]
+for (let type = 0; type < iceCream.length; type++) {
+   console.log(iceCream[type]);
+}
+
+
+let  iceCream2 = [ 'لولو' , 'باسكن روبنز ' , `برد موز`]
+function myIceCream (x){
+
+ for (let x = 0; x < iceCream2.length; x++) {
+
+     console.log(iceCream2[x])
+ }
+}
+myIceCream()
+
+let number = 0
+while (number<iceCream.length) {
+    console.log(iceCream[number])
+    number++
+}
